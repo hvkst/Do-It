@@ -17,10 +17,10 @@
   </head>
  <body>
     {{#if darkmode}}
-    <div  class='bg-dark text-light p-0 mb-1 me-2 m-0 mb-0 d-flex flex-column min-vh-100'>
+    <div  class='bg-dark text-light p-0 m-0 mb-0 d-flex flex-column min-vh-100'>
       <nav class='navbar navbar-expand-sm navbar navbar-dark'>
     {{else}}
-    <div class='p-0 m-0 mb-1 me-2 mb-0 d-flex flex-column min-vh-100'>
+    <div class='p-0 m-0 mb-0 d-flex flex-column min-vh-100'>
       <nav class='navbar navbar-expand-sm navbar'>
     {{/if}}
 
@@ -86,15 +86,18 @@
           </form>
         </div>
         <div id="impressum">
+          <span class='mb-1 mb-md-0 ms-2 text-muted '> <a class='text-secondary btn p-0 m-0 mb-1'href="http://hvkst.com/impressum.html"> Impressum</a>
+          </span>
+          <span class='mb-1 mb-md-0 ms-2 text-muted '> <a class='text-secondary btn p-0 m-0 mb-1 me-2'href="http://hvkst.com/"> Back to hvkst.com</a>
+          </span>
+        </div>
+        <div id="impressum">
           <span class='mb-1 mb-md-0 text-muted'><i class='bi bi-check-square me-2'></i>&copy; 2022 Patrick Groot
             <a href='https://github.com/Patrick-Groot'><i class='bi bi-github text-secondary'></i></a></span>
           <span class='mb-1 mb-md-0 ms-2 text-muted'>Bernd Havekost
             <a href='https://github.com/hvkst'><i class='bi bi-github text-secondary'></i></a>
           </span>
-          <span class='mb-1 mb-md-0 ms-2 text-muted '> <a class='text-secondary btn p-0 m-0 mb-1'href="http://hvkst.com/impressum.html"> Impressum</a>
-          </span>
-          <span class='mb-1 mb-md-0 ms-2 text-muted '> <a class='text-secondary btn p-0 m-0 mb-1 me-2'href="http://hvkst.com/"> Back</a>
-          </span>
+          
         </div>
       </footer>
 
