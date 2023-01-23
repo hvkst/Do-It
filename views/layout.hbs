@@ -52,6 +52,7 @@
               {{/if}}
             </ul>
             <ul class='navbar-nav'>
+               
               {{#if user}}
                 <form class='nav-item mb-0' id='logout-form' action='/logout' method='POST'>
                   <button type='submit' class='nav-link btn btn-link'>Logout</button>
@@ -85,19 +86,18 @@
             {{/if}}
           </form>
         </div>
-        <div id="impressum">
+        <div >
           <span class='mb-1 mb-md-0 ms-2 text-muted '> <a class='text-secondary btn p-0 m-0 mb-1'href="http://hvkst.com/impressum.html"> Impressum</a>
           </span>
           <span class='mb-1 mb-md-0 ms-2 text-muted '> <a class='text-secondary btn p-0 m-0 mb-1 me-2'href="http://hvkst.com/"> Back to hvkst.com</a>
           </span>
         </div>
         <div id="impressum">
-          <span class='mb-1 mb-md-0 text-muted'><i class='bi bi-check-square me-2'></i>&copy; 2022 Patrick Groot
-            <a href='https://github.com/Patrick-Groot'><i class='bi bi-github text-secondary'></i></a></span>
-          <span class='mb-1 mb-md-0 ms-2 text-muted'>Bernd Havekost
+          <span class='mb-1 mb-md-0 ms-2 text-muted'><i class='bi bi-check-square me-2'></i>&copy; 2022 Bernd Havekost
             <a href='https://github.com/hvkst'><i class='bi bi-github text-secondary'></i></a>
           </span>
-          
+          <span class='mb-1 mb-md-0 text-muted'>Patrick Groot
+            <a href='https://github.com/Patrick-Groot'><i class='bi bi-github text-secondary'></i></a></span>
         </div>
       </footer>
 
