@@ -18,10 +18,10 @@ require('./config/session.config')(app);
 require('./config')(app);
 
 // default value for title local
-const capitalized = require('./utils/capitalized');
-const projectName = 'To-Do-List';
+// const capitalized = require('./utils/capitalized');
+// const projectName = 'To-Do-List';
 
-app.locals.appTitle = `${capitalized(projectName)} created with IronLauncher`;
+// app.locals.appTitle = `${capitalized(projectName)} created with IronLauncher`;
 
 // 👇 Start handling routes here
 const index = require('./routes/index.routes');
